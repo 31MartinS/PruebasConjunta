@@ -1,0 +1,13 @@
+û
+íC:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\obj\Debug\net8.0\GestionProductos.MvcApplicationPartsAssemblyInfo.csutf-8ä
+C:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\obj\Debug\net8.0\GestionProductos.AssemblyInfo.csutf-8ô
+çC:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8ç
+ÅC:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\obj\Debug\net8.0\GestionProductos.GlobalUsings.g.csutf-8i
+`C:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\WeatherForecast.csutf-8a
+XC:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\Program.csutf-8Ä
+uC:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\Migrations\AppDBContextModelSnapshot.csutf-8å
+ÄC:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\Migrations\20250116050454_InitalCreate.Designer.csutf-8Ä
+wC:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\Migrations\20250116050454_InitalCreate.csutf-8y
+pC:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\Controllers\ProductosController.csutf-8z
+qC:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\Controllers\CategoriasController.csutf-8f
+]C:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\AppDBContext.csutf-8

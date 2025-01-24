@@ -1,0 +1,1 @@
+•RC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\GestionProductos.csproj¢net8.0òCSharp12

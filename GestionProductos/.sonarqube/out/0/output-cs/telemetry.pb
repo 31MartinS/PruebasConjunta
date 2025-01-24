@@ -1,0 +1,1 @@
+{ReC:\Users\HP\source\repos\U2_Pruebas_Testing\GestionProductos\GestionProductos\GestionProductos.csproj¢net8.0òCSharp12
