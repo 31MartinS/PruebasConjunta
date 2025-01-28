@@ -46,7 +46,7 @@ namespace GestionProductos.Controllers
 
             // Validar si ya existe una categoría con el mismo nombre
             var categoriaExistente = await _appDbContext.Categorias
-                .FirstOrDefaultAsync(c => c.Nombre.ToLower() == categoria.Nombre.ToLower());
+                .FirstOrDefaultAsync(c => string.Equals(c.Nombre, categoria.Nombre, StringComparison.OrdinalIgnoreCase));
             if (categoriaExistente != null)
                 return BadRequest("Ya existe una categoría con el mismo nombre.");
 
@@ -69,7 +69,7 @@ namespace GestionProductos.Controllers
 
             // Validar si ya existe otra categoría con el mismo nombre
             var otraCategoriaExistente = await _appDbContext.Categorias
-                .FirstOrDefaultAsync(c => c.Nombre.ToLower() == categoria.Nombre.ToLower() && c.Id != id);
+                .FirstOrDefaultAsync(c => string.Equals(c.Nombre, categoria.Nombre, StringComparison.OrdinalIgnoreCase) && c.Id != id);
             if (otraCategoriaExistente != null)
                 return BadRequest("Ya existe una categoría con el mismo nombre.");
 
@@ -79,6 +79,7 @@ namespace GestionProductos.Controllers
 
             return NoContent(); // Devuelve 204 (sin contenido) para indicar éxito
         }
+
 
         // Eliminar una categoría por su ID
         [HttpDelete("{id}")]

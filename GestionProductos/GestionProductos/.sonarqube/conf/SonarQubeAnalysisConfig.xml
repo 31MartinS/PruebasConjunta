@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AnalysisConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <SonarConfigDir>C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\.sonarqube\conf</SonarConfigDir>
-  <SonarOutputDir>C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\.sonarqube\out</SonarOutputDir>
-  <SonarBinDir>C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\.sonarqube\bin</SonarBinDir>
-  <SonarScannerWorkingDirectory>C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos</SonarScannerWorkingDirectory>
+  <SonarConfigDir>C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\.sonarqube\conf</SonarConfigDir>
+  <SonarOutputDir>C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\.sonarqube\out</SonarOutputDir>
+  <SonarBinDir>C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\.sonarqube\bin</SonarBinDir>
+  <SonarScannerWorkingDirectory>C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos</SonarScannerWorkingDirectory>
   <JavaExePath>C:\Users\USER\.sonar\cache\11a61a94d383e755b08b4e5890a13d148bc9f95b7149cbbeec62efb8c75a4a67\OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip_extracted\jdk-17.0.13+11-jre/bin/java.exe</JavaExePath>
   <ScanAllAnalysis>true</ScanAllAnalysis>
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
@@ -15,7 +15,7 @@
     <ConfigSetting Id="TfsUri" />
     <ConfigSetting Id="VsCoverageConverterToolPath" />
     <ConfigSetting Id="UnchangedFilesPath" />
-    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos" />
+    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos" />
     <ConfigSetting Id="settings.file.path" Value="C:\Users\USER\.dotnet\tools\.store\dotnet-sonarscanner\9.0.2\dotnet-sonarscanner\9.0.2\tools\netcoreapp3.1\any\SonarQube.Analysis.xml" />
   </AdditionalConfig>
   <ServerSettings>
@@ -143,7 +143,8 @@
     <Property Name="sonar.java.jvmframeworkconfig.activate">true</Property>
     <Property Name="sonar.updatecenter.url">https://downloads.sonarsource.com/sonarqube/update/update-center.properties</Property>
     <Property Name="sonar.core.id">147B411E-AZRk7eD7dF1lPfazrz9d</Property>
-    <Property Name="sonar.core.startTime">23/01/2025 22:05:21</Property>
+    <Property Name="sonar.core.startTime">28/01/2025 7:10:58</Property>
+    <Property Name="sonar.coverage.exclusions">**/*</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">http://127.0.0.1:9000</Property>
@@ -151,46 +152,42 @@
   <AnalyzersSettings>
     <AnalyzerSettings>
       <Language>cs</Language>
-      <RulesetPath>C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="10.4.0.108396" StaticResourceName="SonarAnalyzer-csharp-10.4.0.108396.zip">
           <AssemblyPaths>
             <Path>C:\Users\USER\AppData\Local\Temp\.sonarqube\resources\0\SonarAnalyzer.CSharp.dll</Path>
-            <Path>C:\Users\USER\AppData\Local\Temp\.sonarqube\resources\0\THIRD-PARTY-NOTICES.txt</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
         <AnalyzerPlugin Key="vbnet" Version="10.4.0.108396" StaticResourceName="SonarAnalyzer-vbnet-10.4.0.108396.zip">
           <AssemblyPaths>
             <Path>C:\Users\USER\AppData\Local\Temp\.sonarqube\resources\1\SonarAnalyzer.VisualBasic.dll</Path>
-            <Path>C:\Users\USER\AppData\Local\Temp\.sonarqube\resources\1\THIRD-PARTY-NOTICES.txt</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\.sonarqube\conf\cs\SonarLint.xml</Path>
+        <Path>C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\.sonarqube\conf\cs\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
     <AnalyzerSettings>
       <Language>vbnet</Language>
-      <RulesetPath>C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="10.4.0.108396" StaticResourceName="SonarAnalyzer-csharp-10.4.0.108396.zip">
           <AssemblyPaths>
             <Path>C:\Users\USER\AppData\Local\Temp\.sonarqube\resources\0\SonarAnalyzer.CSharp.dll</Path>
-            <Path>C:\Users\USER\AppData\Local\Temp\.sonarqube\resources\0\THIRD-PARTY-NOTICES.txt</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
         <AnalyzerPlugin Key="vbnet" Version="10.4.0.108396" StaticResourceName="SonarAnalyzer-vbnet-10.4.0.108396.zip">
           <AssemblyPaths>
             <Path>C:\Users\USER\AppData\Local\Temp\.sonarqube\resources\1\SonarAnalyzer.VisualBasic.dll</Path>
-            <Path>C:\Users\USER\AppData\Local\Temp\.sonarqube\resources\1\THIRD-PARTY-NOTICES.txt</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>C:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\.sonarqube\conf\vbnet\SonarLint.xml</Path>
+        <Path>C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\.sonarqube\conf\vbnet\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
   </AnalyzersSettings>

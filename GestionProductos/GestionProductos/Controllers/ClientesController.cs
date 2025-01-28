@@ -32,14 +32,14 @@ namespace GestionProductos.Controllers
 
             // Validar que no exista otro cliente con el mismo email
             var clienteExistente = await _appDbContext.Clientes
-                .FirstOrDefaultAsync(c => c.Email.ToLower() == cliente.Email.ToLower());
+                .FirstOrDefaultAsync(c => string.Equals(c.Email, cliente.Email, StringComparison.OrdinalIgnoreCase));
             if (clienteExistente != null)
                 return BadRequest("Ya existe un cliente con el mismo email.");
 
             _appDbContext.Clientes.Add(cliente);
             await _appDbContext.SaveChangesAsync();
 
-            return Ok(cliente);
+            return Ok(cliente); // Devuelve el cliente creado con 200 OK
         }
 
         // Editar un cliente existente
@@ -55,7 +55,7 @@ namespace GestionProductos.Controllers
 
             // Validar que no exista otro cliente con el mismo email
             var otroClienteConMismoEmail = await _appDbContext.Clientes
-                .FirstOrDefaultAsync(c => c.Email.ToLower() == cliente.Email.ToLower() && c.Id != id);
+                .FirstOrDefaultAsync(c => string.Equals(c.Email, cliente.Email, StringComparison.OrdinalIgnoreCase) && c.Id != id);
             if (otroClienteConMismoEmail != null)
                 return BadRequest("Ya existe otro cliente con el mismo email.");
 
@@ -67,7 +67,7 @@ namespace GestionProductos.Controllers
 
             await _appDbContext.SaveChangesAsync();
 
-            return Ok(clienteExistente);
+            return Ok(clienteExistente); // Devuelve el cliente actualizado con 200 OK
         }
 
         // Eliminar un cliente por su ID

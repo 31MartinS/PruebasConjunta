@@ -12,97 +12,13 @@
       },
       "results": [
         {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Controllers/ClientesController.cs",
-                "region": {
-                  "startLine": 35,
-                  "startColumn": 43,
-                  "endLine": 35,
-                  "endColumn": 50
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Controllers/ClientesController.cs",
-                "region": {
-                  "startLine": 35,
-                  "startColumn": 64,
-                  "endLine": 35,
-                  "endColumn": 77
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Controllers/ClientesController.cs",
-                "region": {
-                  "startLine": 58,
-                  "startColumn": 43,
-                  "endLine": 58,
-                  "endColumn": 50
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Controllers/ClientesController.cs",
-                "region": {
-                  "startLine": 58,
-                  "startColumn": 64,
-                  "endLine": 58,
-                  "endColumn": 77
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1192",
           "level": "warning",
           "message": "Define a constant instead of using this literal 'SqlServer:Identity' 4 times.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 19,
                   "startColumn": 37,
@@ -115,7 +31,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 33,
                   "startColumn": 37,
@@ -126,7 +42,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 49,
                   "startColumn": 37,
@@ -137,7 +53,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 72,
                   "startColumn": 37,
@@ -163,7 +79,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 20,
                   "startColumn": 57,
@@ -176,7 +92,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 21,
                   "startColumn": 62,
@@ -187,7 +103,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 34,
                   "startColumn": 57,
@@ -198,7 +114,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 35,
                   "startColumn": 59,
@@ -209,7 +125,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 51,
                   "startColumn": 57,
@@ -220,7 +136,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 52,
                   "startColumn": 62,
@@ -248,7 +164,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 45,
                   "startColumn": 23,
@@ -261,7 +177,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 85,
                   "startColumn": 41,
@@ -272,7 +188,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 91,
                   "startColumn": 41,
@@ -283,7 +199,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 97,
                   "startColumn": 24,
@@ -294,7 +210,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 121,
                   "startColumn": 23,
@@ -321,7 +237,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 68,
                   "startColumn": 23,
@@ -334,7 +250,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 102,
                   "startColumn": 24,
@@ -345,7 +261,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 107,
                   "startColumn": 24,
@@ -356,7 +272,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
+                "uri": "file:///C:/Users/USER/Desktop/repos/PruebasConjunta/GestionProductos/GestionProductos/Migrations/20250123192254_InitalCreate.cs",
                 "region": {
                   "startLine": 118,
                   "startColumn": 23,
@@ -374,188 +290,9 @@
               "2": null
             }
           }
-        },
-        {
-          "ruleId": "CA1862",
-          "level": "note",
-          "message": "Prefiera usar \"string.Equals(string, StringComparison)\" para realizar una comparación sin distinción de mayúsculas y minúsculas, pero tenga en cuenta que esto puede provocar cambios sutiles en el comportamiento, por lo que asegúrese de realizar pruebas exhaustivas después de aplicar la sugerencia, o si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\"",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Controllers/ClientesController.cs",
-                "region": {
-                  "startLine": 35,
-                  "startColumn": 43,
-                  "endLine": 35,
-                  "endColumn": 87
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "LeftOffendingMethod": "ToLower",
-              "RightOffendingMethod": "ToLower"
-            }
-          }
-        },
-        {
-          "ruleId": "CA1862",
-          "level": "note",
-          "message": "Prefiera usar \"string.Equals(string, StringComparison)\" para realizar una comparación sin distinción de mayúsculas y minúsculas, pero tenga en cuenta que esto puede provocar cambios sutiles en el comportamiento, por lo que asegúrese de realizar pruebas exhaustivas después de aplicar la sugerencia, o si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\"",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Controllers/ProductosController.cs",
-                "region": {
-                  "startLine": 35,
-                  "startColumn": 43,
-                  "endLine": 35,
-                  "endColumn": 90
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "LeftOffendingMethod": "ToLower",
-              "RightOffendingMethod": "ToLower"
-            }
-          }
-        },
-        {
-          "ruleId": "CA1862",
-          "level": "note",
-          "message": "Prefiera usar \"string.Equals(string, StringComparison)\" para realizar una comparación sin distinción de mayúsculas y minúsculas, pero tenga en cuenta que esto puede provocar cambios sutiles en el comportamiento, por lo que asegúrese de realizar pruebas exhaustivas después de aplicar la sugerencia, o si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\"",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Controllers/CategoriasController.cs",
-                "region": {
-                  "startLine": 49,
-                  "startColumn": 43,
-                  "endLine": 49,
-                  "endColumn": 91
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "LeftOffendingMethod": "ToLower",
-              "RightOffendingMethod": "ToLower"
-            }
-          }
-        },
-        {
-          "ruleId": "CA1862",
-          "level": "note",
-          "message": "Prefiera usar \"string.Equals(string, StringComparison)\" para realizar una comparación sin distinción de mayúsculas y minúsculas, pero tenga en cuenta que esto puede provocar cambios sutiles en el comportamiento, por lo que asegúrese de realizar pruebas exhaustivas después de aplicar la sugerencia, o si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\"",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Controllers/ClientesController.cs",
-                "region": {
-                  "startLine": 58,
-                  "startColumn": 43,
-                  "endLine": 58,
-                  "endColumn": 87
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "LeftOffendingMethod": "ToLower",
-              "RightOffendingMethod": "ToLower"
-            }
-          }
-        },
-        {
-          "ruleId": "CA1862",
-          "level": "note",
-          "message": "Prefiera usar \"string.Equals(string, StringComparison)\" para realizar una comparación sin distinción de mayúsculas y minúsculas, pero tenga en cuenta que esto puede provocar cambios sutiles en el comportamiento, por lo que asegúrese de realizar pruebas exhaustivas después de aplicar la sugerencia, o si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\"",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Controllers/ProductosController.cs",
-                "region": {
-                  "startLine": 56,
-                  "startColumn": 43,
-                  "endLine": 56,
-                  "endColumn": 90
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "LeftOffendingMethod": "ToLower",
-              "RightOffendingMethod": "ToLower"
-            }
-          }
-        },
-        {
-          "ruleId": "CA1862",
-          "level": "note",
-          "message": "Prefiera usar \"string.Equals(string, StringComparison)\" para realizar una comparación sin distinción de mayúsculas y minúsculas, pero tenga en cuenta que esto puede provocar cambios sutiles en el comportamiento, por lo que asegúrese de realizar pruebas exhaustivas después de aplicar la sugerencia, o si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\"",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/USER/Desktop/6TO/Pruebas/Conjunta-Pruebas/U2_Pruebas_Testing/GestionProductos/GestionProductos/Controllers/CategoriasController.cs",
-                "region": {
-                  "startLine": 72,
-                  "startColumn": 43,
-                  "endLine": 72,
-                  "endColumn": 91
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "LeftOffendingMethod": "ToLower",
-              "RightOffendingMethod": "ToLower"
-            }
-          }
         }
       ],
       "rules": {
-        "CA1862": {
-          "id": "CA1862",
-          "shortDescription": "Use las sobrecargas del método \"StringComparison\" para realizar comparaciones de cadenas sin distinción de mayúsculas y minúsculas",
-          "fullDescription": "Evite llamar a \"ToLower\", \"ToUpper\", \"ToLowerInvariant\" y \"ToUpperInvariant\" para realizar comparaciones de cadenas sin distinción de mayúsculas y minúsculas, como en \"string.ToLower() == string.ToLower()\" porque dan lugar a una asignación. En su lugar, use \"string\". Equals(string, StringComparison)\" para realizar comparaciones sin distinción de mayúsculas y minúsculas. Si cambia a una sobrecarga que toma una \"StringComparison\", es posible que se produzcan cambios sutiles en el comportamiento, por lo que es importante realizar pruebas exhaustivas después de aplicar la sugerencia. Además, si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\".",
-          "defaultLevel": "note",
-          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1862",
-          "properties": {
-            "category": "Performance",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Telemetry",
-              "EnabledRuleInAggressiveMode"
-            ]
-          }
-        },
-        "CS8602": {
-          "id": "CS8602",
-          "shortDescription": "Desreferencia de una referencia posiblemente NULL.",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
         "S1192": {
           "id": "S1192",
           "shortDescription": "String literals should not be duplicated",

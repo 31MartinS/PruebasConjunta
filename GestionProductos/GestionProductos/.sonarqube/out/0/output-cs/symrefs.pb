@@ -1,5 +1,15 @@
-¢
-rC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Program.cs>
+®
+`C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\WeatherForecast.cs
+
+  
+
+ 
+ 		. :
+
+		 
+
+ à
+XC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Program.cs>
  		     
  
 		 
@@ -14,18 +24,8 @@ rC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionPr
   %
  1 ;
 , 3 J
-    !! ## %% '' 	¬
-zC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\WeatherForecast.cs
-
-  
-
- 
- 		. :
-
-		 
-
- ∆
-ëC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Migrations\20250123192254_InitalCreate.cs
+    !! ## %% '' 	´
+wC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Migrations\20250123192254_InitalCreate.cs
 
 		 %
 
@@ -48,8 +48,8 @@ zC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionPr
 ZZ  !ZZ% &
 
 pp  $2
-pp6 Frr uu xx {{ ¥
-áC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Controllers\VentasController.cs
+pp6 Frr uu xx {{ ô
+mC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Controllers\VentasController.cs
 
  !n
 & 3  ,'' (( 44' 4AA JJ' 4OO+ 8SS TT 
@@ -71,34 +71,35 @@ zC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionPr
 HH; =JJF HVV& ((
 JJ KK OOY gSS( 6
 OO "PP "
-OOL MOOQ Rß
-äC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Controllers\ProductosController.cs
+OOL MOOQ RÑ
+pC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Controllers\ProductosController.cs
 
 
 
  $x
-& 3 " /""' 4&& '' 33* 777+ 8AA II* 7LL MM 
+& 3 " /%%' 4** ++ ::* 7??+ 8JJ RR* 7VV WW 
 0 < (
 
 ) 5
   
 
-) 7P
-L T   ##@ H&&( 0))D L))S [
-"" $$ 
-##% &##* +
+) 7F
+L T  !! &&B J**( 0-- 
+%% '' 
+&&% &&&8 9
 
---) 7
---< >33L N88e gZ
---T \// 00 11 88@ H<<' /==, 4>>' /??& .F
-33 !44 !<< == >> ?? CC '
-77 "99 "
-88% &88* +88] ^
+11) 7 
+11< >::L N
+@@Ç ÑZ
+11T \33 55 77 @@B JEE' /FF, 4GG' /HH& .F
+:: !;; !EE FF GG HH LL '
+?? "AA "
+@@% &@@8 9@@z {
 
-GG) 9
-GG> @IIL NOO) +
-II !JJ !LL+ <Ù
-âC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Controllers\ClientesController.cs
+PP) 9
+PP> @RRL NYY) +
+RR !SS !VV+ <⁄
+oC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Controllers\ClientesController.cs
 
 		 #x
 & 3 ! ."") 6'' (( 44) 6991 >DD MM) 6QQ RR 
@@ -108,24 +109,24 @@ zC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionPr
   
 
 ) 62
-K R ##? F''' .** 
+K R ##A H''' .** 
 ""  $$  
-##% &##* +
+##% &##8 9
 
-//) 6
-//; =44J L::b dF
-//S Z11 ::? F??& -@@( /AA% ,BB( /F
+//) 6
+//; =44J L	:: ÅF
+//S Z11 ::A H??& -@@( /AA% ,BB( /F
 44  55  ?? @@ AA BB FF &
 99 (;; (
-::% &::* +::Z [
+::% &::8 9::w x
 
 KK) 8
 KK= ?MMJ LTT( *
-MM  NN  QQ* :Á
-ãC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Controllers\CategoriasController.cs
+MM  NN  QQ* :Œ
+qC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Controllers\CategoriasController.cs
 
  $å
-& 3 # 0  " /00+ 855 66 BB+ 8GG/ <NN WW" /\\+ 8`` aa 
+& 3 # 0  " /00+ 855 66 BB+ 8GG/ <NN XX" /]]+ 8aa bb 
 0 < (
 
 ) 6
@@ -137,23 +138,24 @@ zC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionPr
 !!D E!!I J
 
 **) 8<
-**N W,, 11@ I55) 288H Q88X a
+**N W,, 11B K55) 288H Q88X a
 00 "22 "
-11% &11* +
+11% &118 9
 
-==) 8(
-=== ??? BBN PHHf h(
-==V _?? HH@ ILL( 1
+==) 8*
+=== ??? BBN P
+HHÉ Ö(
+==V _?? HHB KLL( 1
 BB "CC "LL 
 GG &II &
-HH% &HH* +HH^ _
+HH% &HH8 9HH{ |
 
-UU) 8(
-UU= ?WWE G\\b dcc* ,
-WW XX ``, 5
-\\ "]] "
-\\L M\\Q Rã
-wC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\AppDBContext.cs
+VV) 8(
+VV= ?XXE G]]b ddd* ,
+XX YY aa, 5
+]] "^^ "
+]]L M]]Q RÒ
+]C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\AppDBContext.cs
  		- 9
 		; B		K R
 

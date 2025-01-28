@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\6TO\\Pruebas\\Conjunta-Pruebas\\U2_Pruebas_Testing\\GestionProductos\\GestionProductos\\GestionProductos.csproj": {}
+    "C:\\Users\\USER\\Desktop\\repos\\PruebasConjunta\\GestionProductos\\GestionProductos\\GestionProductos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\6TO\\Pruebas\\Conjunta-Pruebas\\U2_Pruebas_Testing\\GestionProductos\\GestionProductos\\GestionProductos.csproj": {
+    "C:\\Users\\USER\\Desktop\\repos\\PruebasConjunta\\GestionProductos\\GestionProductos\\GestionProductos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\6TO\\Pruebas\\Conjunta-Pruebas\\U2_Pruebas_Testing\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\repos\\PruebasConjunta\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
         "projectName": "GestionProductos",
-        "projectPath": "C:\\Users\\USER\\Desktop\\6TO\\Pruebas\\Conjunta-Pruebas\\U2_Pruebas_Testing\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\repos\\PruebasConjunta\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\6TO\\Pruebas\\Conjunta-Pruebas\\U2_Pruebas_Testing\\GestionProductos\\GestionProductos\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\repos\\PruebasConjunta\\GestionProductos\\GestionProductos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

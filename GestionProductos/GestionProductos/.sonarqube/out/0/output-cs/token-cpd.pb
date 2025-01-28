@@ -1,5 +1,60 @@
-£
-rC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Program.cs
+˘
+`C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\WeatherForecast.cs
+	namespace 	
+GestionProductos
+ 
+{ 
+public 
+
+class 
+WeatherForecast  
+{ 
+public 
+DateOnly 
+Date 
+{ 
+get "
+;" #
+set$ '
+;' (
+}) *
+public 
+int 
+TemperatureC 
+{  !
+get" %
+;% &
+set' *
+;* +
+}, -
+public		 
+int		 
+TemperatureF		 
+=>		  "
+$num		# %
++		& '
+(		( )
+int		) ,
+)		, -
+(		- .
+TemperatureC		. :
+/		; <
+$num		= C
+)		C D
+;		D E
+public 
+string 
+? 
+Summary 
+{  
+get! $
+;$ %
+set& )
+;) *
+}+ ,
+} 
+} â
+XC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Program.cs
 var 
 builder 
 = 
@@ -240,63 +295,8 @@ UseSwagger 
  
 ('' 
 )'' 
-;'' ì
-zC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\WeatherForecast.cs
-	namespace 	
-GestionProductos
- 
-{ 
-public 
-
-class 
-WeatherForecast  
-{ 
-public 
-DateOnly 
-Date 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
-public 
-int 
-TemperatureC 
-{  !
-get" %
-;% &
-set' *
-;* +
-}, -
-public		 
-int		 
-TemperatureF		 
-=>		  "
-$num		# %
-+		& '
-(		( )
-int		) ,
-)		, -
-(		- .
-TemperatureC		. :
-/		; <
-$num		= C
-)		C D
-;		D E
-public 
-string 
-? 
-Summary 
-{  
-get! $
-;$ %
-set& )
-;) *
-}+ ,
-} 
-} ˚h
-ëC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Migrations\20250123192254_InitalCreate.cs
+;'' ‡h
+wC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Migrations\20250123192254_InitalCreate.cs
 	namespace 	
 GestionProductos
  
@@ -1078,8 +1078,8 @@ ForeignKeyXX $
 ;||# $
 }}} 	
 }~~ 
-} ô5
-áC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Controllers\VentasController.cs
+} ˛4
+mC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Controllers\VentasController.cs
 	namespace 	
 GestionProductos
  
@@ -1463,8 +1463,8 @@ BadRequestQQ !
 ;VVD E
 }WW 	
 }XX 
-}YY ‚B
-äC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Controllers\ProductosController.cs
+}YY ™A
+pC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Controllers\ProductosController.cs
 	namespace 	
 GestionProductos
  
@@ -1572,384 +1572,375 @@ BadRequestQQ !
 == 
 null  
 )  !
-return" (
+return 
 
-BadRequest) 3
-(3 4
-$str4 T
-)T U
-;U V
-if 
-( 
-producto 
-. 
-Precio 
-<  !
-$num" #
-)# $
-return% +
-
-BadRequest, 6
-(6 7
-$str7 f
-)f g
-;g h
+BadRequest !
+(! "
+$str" B
+)B C
+;C D
 if 
 ( 
 producto 
-. 
-Stock 
-<  
-$num! "
-)" #
-return$ *
+. 
+Precio 
+<  !
+$num" #
+)# $
+return   
 
-BadRequest+ 5
-(5 6
-$str6 d
-)d e
-;e f
-var"" 
-existeProducto"" 
-=""  
-await""! &
-_appDbContext""' 4
-.""4 5
-	Productos""5 >
-.## 
-FirstOrDefaultAsync## $
-(##$ %
-p##% &
-=>##' )
-p##* +
-.##+ ,
-Nombre##, 2
-.##2 3
-ToLower##3 :
-(##: ;
-)##; <
-==##= ?
-producto##@ H
-.##H I
-Nombre##I O
-.##O P
-ToLower##P W
-(##W X
-)##X Y
-)##Y Z
-;##Z [
-if$$ 
-($$ 
-existeProducto$$ 
-!=$$ !
-null$$" &
-)$$& '
-return$$( .
+BadRequest   !
+(  ! "
+$str  " Q
+)  Q R
+;  R S
+if!! 
+(!! 
+producto!! 
+.!! 
+Stock!! 
+<!!  
+$num!!! "
+)!!" #
+return"" 
 
-BadRequest$$/ 9
-($$9 :
-$str$$: f
-)$$f g
-;$$g h
-_appDbContext&& 
-.&& 
-	Productos&& #
-.&&# $
-Add&&$ '
-(&&' (
-producto&&( 0
-)&&0 1
-;&&1 2
-await'' 
-_appDbContext'' 
-.''  
-SaveChangesAsync''  0
-(''0 1
-)''1 2
-;''2 3
-return)) 
-CreatedAtAction)) "
-())" #
-nameof))# )
-())) *
-GetProductos))* 6
-)))6 7
-,))7 8
-new))9 <
-{))= >
-id))? A
-=))B C
-producto))D L
-.))L M
-Id))M O
-}))P Q
-,))Q R
-producto))S [
-)))[ \
-;))\ ]
-}** 	
-[,, 	
-HttpPut,,	 
-(,, 
-$str,, 
-),, 
-],, 
-public-- 
-async-- 
-Task-- 
-<-- 
-IActionResult-- '
->--' (
-EditarProducto--) 7
-(--7 8
-int--8 ;
-id--< >
-,--> ?
-[--@ A
-FromBody--A I
-]--I J
-Producto--K S
-producto--T \
-)--\ ]
-{.. 	
-if// 
-(// 
-producto// 
-==// 
-null//  
-)//  !
-return//" (
+BadRequest"" !
+(""! "
+$str""" P
+)""P Q
+;""Q R
+var%% 
+existeProducto%% 
+=%%  
+await%%! &
+_appDbContext%%' 4
+.%%4 5
+	Productos%%5 >
+.&& 
+FirstOrDefaultAsync&& $
+(&&$ %
+p&&% &
+=>&&' )
+string&&* 0
+.&&0 1
+Equals&&1 7
+(&&7 8
+p&&8 9
+.&&9 :
+Nombre&&: @
+,&&@ A
+producto&&B J
+.&&J K
+Nombre&&K Q
+,&&Q R
+StringComparison&&S c
+.&&c d
+OrdinalIgnoreCase&&d u
+)&&u v
+)&&v w
+;&&w x
+if'' 
+('' 
+existeProducto'' 
+!='' !
+null''" &
+)''& '
+return(( 
 
-BadRequest//) 3
-(//3 4
-$str//4 T
-)//T U
-;//U V
-if00 
-(00 
-producto00 
-.00 
-Precio00 
-<00  !
-$num00" #
-)00# $
-return00% +
+BadRequest(( !
+(((! "
+$str((" N
+)((N O
+;((O P
+_appDbContext** 
+.** 
+	Productos** #
+.**# $
+Add**$ '
+(**' (
+producto**( 0
+)**0 1
+;**1 2
+await++ 
+_appDbContext++ 
+.++  
+SaveChangesAsync++  0
+(++0 1
+)++1 2
+;++2 3
+return-- 
+Ok-- 
+(-- 
+producto-- 
+)-- 
+;--  
+}.. 	
+[00 	
+HttpPut00	 
+(00 
+$str00 
+)00 
+]00 
+public11 
+async11 
+Task11 
+<11 
+IActionResult11 '
+>11' (
+EditarProducto11) 7
+(117 8
+int118 ;
+id11< >
+,11> ?
+[11@ A
+FromBody11A I
+]11I J
+Producto11K S
+producto11T \
+)11\ ]
+{22 	
+if33 
+(33 
+producto33 
+==33 
+null33  
+)33  !
+return44 
 
-BadRequest00, 6
-(006 7
-$str007 f
-)00f g
-;00g h
-if11 
-(11 
-producto11 
-.11 
-Stock11 
-<11  
-$num11! "
-)11" #
-return11$ *
+BadRequest44 !
+(44! "
+$str44" B
+)44B C
+;44C D
+if55 
+(55 
+producto55 
+.55 
+Precio55 
+<55  !
+$num55" #
+)55# $
+return66 
 
-BadRequest11+ 5
-(115 6
-$str116 d
-)11d e
-;11e f
-var33 
-productoExistente33 !
-=33" #
-await33$ )
-_appDbContext33* 7
-.337 8
-	Productos338 A
-.33A B
-	FindAsync33B K
-(33K L
-id33L N
-)33N O
-;33O P
-if44 
-(44 
-productoExistente44 !
-==44" $
-null44% )
-)44) *
-return44+ 1
-NotFound442 :
-(44: ;
-$str44; S
-)44S T
-;44T U
-var77 
-existeOtroProducto77 "
-=77# $
-await77% *
-_appDbContext77+ 8
-.778 9
-	Productos779 B
-.88 
-FirstOrDefaultAsync88 $
-(88$ %
-p88% &
-=>88' )
-p88* +
-.88+ ,
-Nombre88, 2
-.882 3
-ToLower883 :
-(88: ;
-)88; <
-==88= ?
-producto88@ H
-.88H I
-Nombre88I O
-.88O P
-ToLower88P W
-(88W X
-)88X Y
-&&88Z \
-p88] ^
-.88^ _
-Id88_ a
-!=88b d
-id88e g
-)88g h
-;88h i
-if99 
-(99 
-existeOtroProducto99 "
-!=99# %
-null99& *
-)99* +
-return99, 2
+BadRequest66 !
+(66! "
+$str66" Q
+)66Q R
+;66R S
+if77 
+(77 
+producto77 
+.77 
+Stock77 
+<77  
+$num77! "
+)77" #
+return88 
 
-BadRequest993 =
-(99= >
-$str99> j
-)99j k
-;99k l
-productoExistente<< 
-.<< 
-Nombre<< $
-=<<% &
-producto<<' /
-.<</ 0
-Nombre<<0 6
-;<<6 7
-productoExistente== 
-.== 
-Descripcion== )
-===* +
-producto==, 4
-.==4 5
-Descripcion==5 @
-;==@ A
-productoExistente>> 
-.>> 
-Precio>> $
-=>>% &
-producto>>' /
-.>>/ 0
-Precio>>0 6
-;>>6 7
-productoExistente?? 
-.?? 
-Stock?? #
-=??$ %
-producto??& .
-.??. /
-Stock??/ 4
-;??4 5
-awaitAA 
-_appDbContextAA 
-.AA  
-SaveChangesAsyncAA  0
-(AA0 1
-)AA1 2
-;AA2 3
-returnCC 
-OkCC 
-(CC 
-productoExistenteCC '
-)CC' (
-;CC( )
-}DD 	
-[FF 	
+BadRequest88 !
+(88! "
+$str88" P
+)88P Q
+;88Q R
+var:: 
+productoExistente:: !
+=::" #
+await::$ )
+_appDbContext::* 7
+.::7 8
+	Productos::8 A
+.::A B
+	FindAsync::B K
+(::K L
+id::L N
+)::N O
+;::O P
+if;; 
+(;; 
+productoExistente;; !
+==;;" $
+null;;% )
+);;) *
+return<< 
+NotFound<< 
+(<<  
+$str<<  8
+)<<8 9
+;<<9 :
+var?? 
+existeOtroProducto?? "
+=??# $
+await??% *
+_appDbContext??+ 8
+.??8 9
+	Productos??9 B
+.@@ 
+FirstOrDefaultAsync@@ $
+(@@$ %
+p@@% &
+=>@@' )
+string@@* 0
+.@@0 1
+Equals@@1 7
+(@@7 8
+p@@8 9
+.@@9 :
+Nombre@@: @
+,@@@ A
+producto@@B J
+.@@J K
+Nombre@@K Q
+,@@Q R
+StringComparison@@S c
+.@@c d
+OrdinalIgnoreCase@@d u
+)@@u v
+&&@@w y
+p@@z {
+.@@{ |
+Id@@| ~
+!=	@@ Å
+id
+@@Ç Ñ
+)
+@@Ñ Ö
+;
+@@Ö Ü
+ifAA 
+(AA 
+existeOtroProductoAA "
+!=AA# %
+nullAA& *
+)AA* +
+returnBB 
 
-HttpDeleteFF	 
-(FF 
-$strFF 
-)FF 
-]FF 
-publicGG 
-asyncGG 
-TaskGG 
-<GG 
-IActionResultGG '
->GG' (
-EliminarProductoGG) 9
-(GG9 :
-intGG: =
-idGG> @
-)GG@ A
-{HH 	
-varII 
-productoExistenteII !
-=II" #
-awaitII$ )
-_appDbContextII* 7
-.II7 8
-	ProductosII8 A
-.IIA B
-	FindAsyncIIB K
-(IIK L
-idIIL N
-)IIN O
-;IIO P
-ifJJ 
-(JJ 
-productoExistenteJJ !
-==JJ" $
-nullJJ% )
-)JJ) *
-returnJJ+ 1
-NotFoundJJ2 :
-(JJ: ;
-$strJJ; S
-)JJS T
-;JJT U
-_appDbContextLL 
-.LL 
-	ProductosLL #
-.LL# $
-RemoveLL$ *
-(LL* +
-productoExistenteLL+ <
-)LL< =
-;LL= >
-awaitMM 
-_appDbContextMM 
-.MM  
-SaveChangesAsyncMM  0
-(MM0 1
-)MM1 2
-;MM2 3
-returnOO 
-OkOO 
-(OO 
-$"OO 
-$strOO (
-{OO( )
-idOO) +
-}OO+ ,
-$strOO, E
-"OOE F
-)OOF G
-;OOG H
-}PP 	
-}QQ 
-}RR Ç9
-âC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Controllers\ClientesController.cs
+BadRequestBB !
+(BB! "
+$strBB" N
+)BBN O
+;BBO P
+productoExistenteEE 
+.EE 
+NombreEE $
+=EE% &
+productoEE' /
+.EE/ 0
+NombreEE0 6
+;EE6 7
+productoExistenteFF 
+.FF 
+DescripcionFF )
+=FF* +
+productoFF, 4
+.FF4 5
+DescripcionFF5 @
+;FF@ A
+productoExistenteGG 
+.GG 
+PrecioGG $
+=GG% &
+productoGG' /
+.GG/ 0
+PrecioGG0 6
+;GG6 7
+productoExistenteHH 
+.HH 
+StockHH #
+=HH$ %
+productoHH& .
+.HH. /
+StockHH/ 4
+;HH4 5
+awaitJJ 
+_appDbContextJJ 
+.JJ  
+SaveChangesAsyncJJ  0
+(JJ0 1
+)JJ1 2
+;JJ2 3
+returnLL 
+OkLL 
+(LL 
+productoExistenteLL '
+)LL' (
+;LL( )
+}MM 	
+[OO 	
+
+HttpDeleteOO	 
+(OO 
+$strOO 
+)OO 
+]OO 
+publicPP 
+asyncPP 
+TaskPP 
+<PP 
+IActionResultPP '
+>PP' (
+EliminarProductoPP) 9
+(PP9 :
+intPP: =
+idPP> @
+)PP@ A
+{QQ 	
+varRR 
+productoExistenteRR !
+=RR" #
+awaitRR$ )
+_appDbContextRR* 7
+.RR7 8
+	ProductosRR8 A
+.RRA B
+	FindAsyncRRB K
+(RRK L
+idRRL N
+)RRN O
+;RRO P
+ifSS 
+(SS 
+productoExistenteSS !
+==SS" $
+nullSS% )
+)SS) *
+returnTT 
+NotFoundTT 
+(TT  
+$strTT  8
+)TT8 9
+;TT9 :
+_appDbContextVV 
+.VV 
+	ProductosVV #
+.VV# $
+RemoveVV$ *
+(VV* +
+productoExistenteVV+ <
+)VV< =
+;VV= >
+awaitWW 
+_appDbContextWW 
+.WW  
+SaveChangesAsyncWW  0
+(WW0 1
+)WW1 2
+;WW2 3
+returnYY 
+OkYY 
+(YY 
+$"YY 
+$strYY (
+{YY( )
+idYY) +
+}YY+ ,
+$strYY, E
+"YYE F
+)YYF G
+;YYG H
+}ZZ 	
+}[[ 
+}\\ ¬9
+oC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Controllers\ClientesController.cs
 	namespace 	
 GestionProductos
  
@@ -2067,24 +2058,25 @@ BadRequest !
 FirstOrDefaultAsync## $
 (##$ %
 c##% &
-=>##' )
-c##* +
-.##+ ,
-Email##, 1
-.##1 2
-ToLower##2 9
-(##9 :
-)##: ;
-==##< >
-cliente##? F
-.##F G
-Email##G L
-.##L M
-ToLower##M T
-(##T U
-)##U V
-)##V W
-;##W X
+=>##' )
+string##* 0
+.##0 1
+Equals##1 7
+(##7 8
+c##8 9
+.##9 :
+Email##: ?
+,##? @
+cliente##A H
+.##H I
+Email##I N
+,##N O
+StringComparison##P `
+.##` a
+OrdinalIgnoreCase##a r
+)##r s
+)##s t
+;##t u
 if$$ 
 ($$ 
 clienteExistente$$  
@@ -2194,30 +2186,33 @@ BadRequest22 !
 FirstOrDefaultAsync:: $
 (::$ %
 c::% &
-=>::' )
-c::* +
-.::+ ,
-Email::, 1
-.::1 2
-ToLower::2 9
-(::9 :
-)::: ;
-==::< >
-cliente::? F
-.::F G
-Email::G L
-.::L M
-ToLower::M T
-(::T U
-)::U V
-&&::W Y
-c::Z [
-.::[ \
-Id::\ ^
-!=::_ a
-id::b d
-)::d e
-;::e f
+=>::' )
+string::* 0
+.::0 1
+Equals::1 7
+(::7 8
+c::8 9
+.::9 :
+Email::: ?
+,::? @
+cliente::A H
+.::H I
+Email::I N
+,::N O
+StringComparison::P `
+.::` a
+OrdinalIgnoreCase::a r
+)::r s
+&&::t v
+c::w x
+.::x y
+Id::y {
+!=::| ~
+id	:: Å
+)
+::Å Ç
+;
+::Ç É
 if;; 
 (;; $
 otroClienteConMismoEmail;; (
@@ -2351,8 +2346,8 @@ HttpDeleteJJ	 
 ;TTF G
 }UU 	
 }VV 
-}WW ‘C
-ãC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\Controllers\CategoriasController.cs
+}WW óD
+qC:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\Controllers\CategoriasController.cs
 	namespace 	
 GestionProductos
  
@@ -2535,24 +2530,25 @@ Categorias009 C
 FirstOrDefaultAsync11 $
 (11$ %
 c11% &
-=>11' )
-c11* +
-.11+ ,
-Nombre11, 2
-.112 3
-ToLower113 :
-(11: ;
-)11; <
-==11= ?
-	categoria11@ I
-.11I J
-Nombre11J P
-.11P Q
-ToLower11Q X
-(11X Y
-)11Y Z
-)11Z [
-;11[ \
+=>11' )
+string11* 0
+.110 1
+Equals111 7
+(117 8
+c118 9
+.119 :
+Nombre11: @
+,11@ A
+	categoria11B K
+.11K L
+Nombre11L R
+,11R S
+StringComparison11T d
+.11d e
+OrdinalIgnoreCase11e v
+)11v w
+)11w x
+;11x y
 if22 
 (22 
 categoriaExistente22 "
@@ -2681,30 +2677,35 @@ CategoriasGG= G
 FirstOrDefaultAsyncHH $
 (HH$ %
 cHH% &
-=>HH' )
-cHH* +
-.HH+ ,
-NombreHH, 2
-.HH2 3
-ToLowerHH3 :
-(HH: ;
-)HH; <
-==HH= ?
-	categoriaHH@ I
-.HHI J
-NombreHHJ P
-.HHP Q
-ToLowerHHQ X
-(HHX Y
-)HHY Z
-&&HH[ ]
-cHH^ _
-.HH_ `
-IdHH` b
-!=HHc e
-idHHf h
-)HHh i
-;HHi j
+=>HH' )
+stringHH* 0
+.HH0 1
+EqualsHH1 7
+(HH7 8
+cHH8 9
+.HH9 :
+NombreHH: @
+,HH@ A
+	categoriaHHB K
+.HHK L
+NombreHHL R
+,HHR S
+StringComparisonHHT d
+.HHd e
+OrdinalIgnoreCaseHHe v
+)HHv w
+&&HHx z
+cHH{ |
+.HH| }
+IdHH} 
+!=
+HHÄ Ç
+id
+HHÉ Ö
+)
+HHÖ Ü
+;
+HHÜ á
 ifII 
 (II "
 otraCategoriaExistenteII &
@@ -2739,114 +2740,114 @@ BadRequestJJ !
 )PP 
 ;PP 
 }QQ 	
-[TT 	
+[UU 	
 
-HttpDeleteTT	 
-(TT 
-$strTT 
-)TT 
-]TT 
-publicUU 
-asyncUU 
-TaskUU 
-<UU 
-IActionResultUU '
->UU' (
-DeleteCategoriaUU) 8
-(UU8 9
-intUU9 <
-idUU= ?
-)UU? @
-{VV 	
-varWW 
-	categoriaWW 
-=WW 
-awaitWW !
-_appDbContextWW" /
-.WW/ 0
+HttpDeleteUU	 
+(UU 
+$strUU 
+)UU 
+]UU 
+publicVV 
+asyncVV 
+TaskVV 
+<VV 
+IActionResultVV '
+>VV' (
+DeleteCategoriaVV) 8
+(VV8 9
+intVV9 <
+idVV= ?
+)VV? @
+{WW 	
+varXX 
+	categoriaXX 
+=XX 
+awaitXX !
+_appDbContextXX" /
+.XX/ 0
 
-CategoriasWW0 :
-.WW: ;
-	FindAsyncWW; D
-(WWD E
-idWWE G
-)WWG H
-;WWH I
-ifXX 
-(XX 
-	categoriaXX 
-==XX 
-nullXX !
-)XX! "
-returnYY 
-NotFoundYY 
-(YY  
-$strYY  9
-)YY9 :
-;YY: ;
-var\\ 
-productosAsociados\\ "
-=\\# $
-await\\% *
-_appDbContext\\+ 8
-.\\8 9
-	Productos\\9 B
-.\\B C
-AnyAsync\\C K
-(\\K L
-p\\L M
-=>\\N P
-p\\Q R
-.\\R S
-CategoriaId\\S ^
-==\\_ a
-id\\b d
-)\\d e
-;\\e f
-if]] 
-(]] 
+CategoriasXX0 :
+.XX: ;
+	FindAsyncXX; D
+(XXD E
+idXXE G
+)XXG H
+;XXH I
+ifYY 
+(YY 
+	categoriaYY 
+==YY 
+nullYY !
+)YY! "
+returnZZ 
+NotFoundZZ 
+(ZZ  
+$strZZ  9
+)ZZ9 :
+;ZZ: ;
+var]] 
 productosAsociados]] "
-)]]" #
-return^^ 
+=]]# $
+await]]% *
+_appDbContext]]+ 8
+.]]8 9
+	Productos]]9 B
+.]]B C
+AnyAsync]]C K
+(]]K L
+p]]L M
+=>]]N P
+p]]Q R
+.]]R S
+CategoriaId]]S ^
+==]]_ a
+id]]b d
+)]]d e
+;]]e f
+if^^ 
+(^^ 
+productosAsociados^^ "
+)^^" #
+return__ 
 
-BadRequest^^ !
-(^^! "
-$str^^" g
-)^^g h
-;^^h i
-_appDbContext`` 
-.`` 
+BadRequest__ !
+(__! "
+$str__" g
+)__g h
+;__h i
+_appDbContextaa 
+.aa 
 
-Categorias`` $
-.``$ %
-Remove``% +
-(``+ ,
-	categoria``, 5
-)``5 6
-;``6 7
-awaitaa 
-_appDbContextaa 
-.aa  
-SaveChangesAsyncaa  0
-(aa0 1
-)aa1 2
-;aa2 3
-returncc 
-Okcc 
-(cc 
-$"cc 
-$strcc )
-{cc) *
-idcc* ,
-}cc, -
-$strcc- E
-"ccE F
-)ccF G
-;ccG H
-}dd 	
-}ee 
-}ff øn
-wC:\Users\USER\Desktop\6TO\Pruebas\Conjunta-Pruebas\U2_Pruebas_Testing\GestionProductos\GestionProductos\AppDBContext.cs
+Categoriasaa $
+.aa$ %
+Removeaa% +
+(aa+ ,
+	categoriaaa, 5
+)aa5 6
+;aa6 7
+awaitbb 
+_appDbContextbb 
+.bb  
+SaveChangesAsyncbb  0
+(bb0 1
+)bb1 2
+;bb2 3
+returndd 
+Okdd 
+(dd 
+$"dd 
+$strdd )
+{dd) *
+iddd* ,
+}dd, -
+$strdd- E
+"ddE F
+)ddF G
+;ddG H
+}ee 	
+}ff 
+}gg •n
+]C:\Users\USER\Desktop\repos\PruebasConjunta\GestionProductos\GestionProductos\AppDBContext.cs
 	namespace 	
 GestionProductos
  

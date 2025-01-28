@@ -2,5 +2,5 @@ projectKey=Seguridad
 serverUrl=http://127.0.0.1:9000
 serverVersion=25.1.0.102122
 dashboardUrl=http://127.0.0.1:9000/dashboard?id=Seguridad
-ceTaskId=4561ed56-ff23-444c-ba45-0e4caeb65b30
-ceTaskUrl=http://127.0.0.1:9000/api/ce/task?id=4561ed56-ff23-444c-ba45-0e4caeb65b30
+ceTaskId=98386d1f-1f70-45a4-b484-d32ac441d04e
+ceTaskUrl=http://127.0.0.1:9000/api/ce/task?id=98386d1f-1f70-45a4-b484-d32ac441d04e

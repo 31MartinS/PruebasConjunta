@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ov4PBO/T25A=",
+  "dgSpecHash": "Nkxlt0kZ1O8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\6TO\\Pruebas\\Conjunta-Pruebas\\U2_Pruebas_Testing\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\repos\\PruebasConjunta\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
